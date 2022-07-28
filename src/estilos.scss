@@ -2,20 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
-}
-
-#header nav {
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.2);
-    height: 5rem;
-}
-
-#header div img{
-    height: 5rem;
+    background-color: rgb(255, 254, 251);
+    text-align:start;
 }
