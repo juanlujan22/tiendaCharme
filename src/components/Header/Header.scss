@@ -1,8 +1,8 @@
-#header {
+.header {
     height: 7rem;
 }
 
-#nav__box{
+.nav__box{
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: row;
@@ -15,11 +15,11 @@
    
 }
 
-#logo__Nav img{
+.logo__Nav img{
     height: 3rem;
 }
 
-#titulo_Nav{
+.titulo_Nav{
     font-style: italic;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
     height: 6rem;
 }
 
-#link_Nav a{
+.link_Nav a{
     text-decoration: none;
     padding: 1rem
 }

@@ -1,6 +1,6 @@
 const CartWidget = () => {
   return (
-    <div id="logo__Nav">
+    <div className="logo__Nav">
       <img src="./img/logoCharme.png" alt="logo" srcset="" />
     </div>
   )
