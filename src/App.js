@@ -1,5 +1,5 @@
 import Header from "./components/Header/Header";
-import ItemListContainer from "./components/ItemLisContainer/ItemListContainer";
+import {ItemListContainer} from "./components/ItemLisContainer/ItemListContainer";
 
 const App = () => {
   return (

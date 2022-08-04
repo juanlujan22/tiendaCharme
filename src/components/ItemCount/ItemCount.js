@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-const ItemCount = () => {
+const ItemCount = ({initial, stock, onAdd}) => {
 
-    const [contador, setContador] = useState(0)
+  const [contador, setContador] = useState(initial)
 
-    const aumentarContador = ()=>{setContador(contador+1)};
-    const disminuitContador = ()=>{setContador(contador-1)};
+    const aumentarContador = ()=>{stock && setContador(contador+1)};
+    const disminuitContador = ()=>{initial && setContador(contador-1)};
     const resetearContador = ()=>{setContador(0)};
 
 
@@ -18,4 +18,4 @@ const ItemCount = () => {
     </div>
   )
 }
-export default ItemCount;
+export  {ItemCount}
