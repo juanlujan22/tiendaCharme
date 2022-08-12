@@ -7,8 +7,9 @@ const ItemDetail = ({ listProducto }) => {
         <img src={listProducto.imagen} alt="imagen del producto" />
         <section>Descripción:{listProducto.descripcion}</section>
         <h2>${listProducto.precio}</h2>
+        <button>Agregar al Carrito</button>
       </article>
     </>
   );
-};
+}; 
 export { ItemDetail };
