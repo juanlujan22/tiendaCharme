@@ -12,7 +12,7 @@ const ItemDetailCointeiner = () => {
   useEffect(() => {
     customFetch(productos).then((data) => {
       setLoading(false);
-      setListProducto(data.find((item) => item.id === id));
+      setListProducto(data.find((item) => item.id == id));
     });
   }, [id]);
 
