@@ -2,7 +2,7 @@ export const productos = [{
     id: 1,
     imagen: "link a imagen",
     producto: "producto 1",
-    categoria: "",
+    categoria: "hombre",
     descripcion: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, doloribus assumenda. Laborum labore odit alias mollitia animi distinctio consectetur iste! Pariatur beatae ad alias placeat itaque inventore accusantium earum laborum",
     precio: "$$$$$",
     stock: "stock"
@@ -11,7 +11,7 @@ export const productos = [{
     id: 2,
     imagen: "imagen",
     producto: "producto 2",
-    categoria: "",
+    categoria: "mujer",
     descripcion: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, doloribus assumenda. Laborum labore odit alias mollitia animi distinctio consectetur iste! Pariatur beatae ad alias placeat itaque inventore accusantium earum laborum",
     precio: "$$$$$",
     stock: "stock"
@@ -20,7 +20,7 @@ export const productos = [{
     id: 3,
     imagen: "imagen",
     producto: "producto 3",
-    categoria: "",
+    categoria: "niño",
     descripcion: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, doloribus assumenda. Laborum labore odit alias mollitia animi distinctio consectetur iste! Pariatur beatae ad alias placeat itaque inventore accusantium earum laborum",
     precio: "$$$$$",
     stock: "stock"
@@ -29,7 +29,7 @@ export const productos = [{
     id: 4,
     imagen: "imagen",
     producto: "producto 4",
-    categoria: "",
+    categoria: "calzados",
     descripcion: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, doloribus assumenda. Laborum labore odit alias mollitia animi distinctio consectetur iste! Pariatur beatae ad alias placeat itaque inventore accusantium earum laborum",
     precio: "$$$$$",
     stock: "stock"
@@ -38,7 +38,16 @@ export const productos = [{
     id: 5,
     imagen: "imagen",
     producto: "producto 5",
-    categoria: "",
+    categoria: "indumentaria",
+    descripcion: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, doloribus assumenda. Laborum labore odit alias mollitia animi distinctio consectetur iste! Pariatur beatae ad alias placeat itaque inventore accusantium earum laborum",
+    precio: "$$$$$",
+    stock: "stock"
+},
+{
+    id: 6,
+    imagen: "imagen",
+    producto: "producto 6",
+    categoria: "accesorios",
     descripcion: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, doloribus assumenda. Laborum labore odit alias mollitia animi distinctio consectetur iste! Pariatur beatae ad alias placeat itaque inventore accusantium earum laborum",
     precio: "$$$$$",
     stock: "stock"

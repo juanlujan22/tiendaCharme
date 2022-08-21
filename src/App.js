@@ -1,12 +1,14 @@
-import Header from "./components/Header/Header";
-import {ItemListContainer} from "./components/ItemLisContainer/ItemListContainer";
-import {ItemDetailCointeiner } from "./components/ItemDetailCointeiner/ItemDetailCointeiner"
+import {Header} from "./components/Header/Header";
+import { Main } from "./components/Main/Main"
+import { BrowserRouter } from "react-router-dom";
+
 const App = () => {
   return (
     <>
-      <Header />
-      <ItemListContainer greeting={"Bienvenido/a a Nuestra Tienda"} />
-      <ItemDetailCointeiner />
+      <BrowserRouter>
+        <Header />
+        <Main />
+      </BrowserRouter>
     </>
   );
 };
