@@ -5,16 +5,15 @@ const ItemCount = ({initial, stock, onAdd}) => {
   const [contador, setContador] = useState(initial)
 
     const aumentarContador = ()=>{stock && setContador(contador+1)};
-    const disminuitContador = ()=>{initial && setContador(contador-1)};
-    const resetearContador = ()=>{setContador(0)};
+    const disminuirtContador = ()=>{ contador > 0 && setContador(contador-1)};
 
 
   return (
     <div>
-        <p>El contador va: {contador}</p>
-        <button onClick={aumentarContador}>Sumar</button>
-        <button onClick={disminuitContador}>Restar</button>
-        <button onClick={resetearContador}>Resetear Contador</button>
+        <p>Cantidad: {contador}</p>
+        <button onClick={aumentarContador}>Más Producto</button>
+        <button onClick={disminuirtContador}>Menos Producto</button><br />
+        <button onClick={onAdd}>Agregar al Carrito</button>
     </div>
   )
 }

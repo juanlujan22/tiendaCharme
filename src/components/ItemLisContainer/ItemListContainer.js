@@ -1,4 +1,3 @@
-import { ItemCount } from "../ItemCount/ItemCount";
 import { customFetch } from "../../assets/customFetch";
 import { useState, useEffect } from "react";
 import { productos } from "../../assets/productos";
@@ -23,7 +22,7 @@ const ItemListContainer = ({ greeting }) => {
   return (
     <div className="ItemListContainer">
       <p>{greeting}</p>
-      <ItemCount initial={0} stock={22} onAdd={() => {}} />
+
       {loading ? (
         <h4>Cargando...</h4>
       ) : (
